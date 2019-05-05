@@ -1,0 +1,342 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+
+#main-nav {
+    font-family: 'Playfair Display', sans-serif;
+    color: #fff;
+}
+
+#main-nav a {
+    color: #fff;
+}
+
+
+#navbarNav {
+    justify-content: flex-end;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+section {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-image: url('../img/oslo-project-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*header*/
+
+#main-header {
+
+
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 5px;
+    transform: translateZ(-1px);
+}
+
+.header-inner {
+    position: relative;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 7px #000;
+    transform: translateZ(0px);
+
+}
+
+#main-header h1 {
+    text-transform: uppercase;
+}
+
+/*main - nav*/
+
+#main-nav .nav-link {
+    color: #fff;
+}
+
+#main-nav .nav-link:hover {
+    color: #48dbfb;
+}
+
+#main-nav .nav-link:active {
+    color: #000;
+}
+
+/*buttons*/
+
+button,
+#btn {
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    text-transform: uppercase;
+}
+
+button:hover,
+#btn:hover {
+    background-color: #48dbfb;
+}
+
+/*scroll*/
+
+.scrolled {
+    background-image: linear-gradient(rgba(0, 0, 9, 0.5), rgba(0, 0, 9, 0.5));
+}
+
+/*section services */
+
+#services {
+    color: #000;
+}
+
+#services {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.container h3 {
+    text-transform: uppercase;
+}
+
+#services .container .row {
+    margin-top: 50px;
+}
+
+#services .container .row .col-lg-4 i {
+    font-size: 40px;
+    height: 100px;
+    width: 100px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+#services .youtube-player {
+    height: 70vh;
+    width: 70vw;
+}
+
+#services .container .row .col-lg-4 i:hover {
+    transform: rotate(360deg);
+    background-color: #48dbfb;
+    border-color: #48dbfb;
+    transition-duration: 0.5s;
+}
+
+#services .container p {
+    font-family: 'Playfair Display', sans-serif;
+    color: #000;
+}
+
+#services .container .row h5 {
+    margin-top: 20px;
+}
+
+/*Portfolio*/
+
+#portfolio {
+    background-color: #f7f7f7;
+    color: #000;
+}
+
+#portfolio .content {
+    background-color: #fff;
+
+}
+
+#portfolio .content .overflow {
+    height: 350px;
+    overflow: hidden;
+}
+
+#portfolio .content .overflow .background {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+#portfolio .content .overflow .background .mask {
+    background: rgba(14, 216, 214, 0.7);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+#portfolio .content .overflow .background:hover {
+    transform: scale(1.2);
+}
+
+#portfolio .content .overflow .background:hover .mask {
+    opacity: 1;
+}
+
+/*TEAM*/
+
+#team {
+    color: #000;
+}
+
+#team .container .row .col-lg-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#team .container .row .col-lg-4 .team-member .member-image {
+    height: 250px;
+    line-height: 250px;
+}
+
+
+#team .container .row .col-lg-4 .team-member .member-image img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#team .container .row .col-lg-4 .team-member .team-sm-icons {
+
+    height: 100px;
+
+}
+
+#team .container .row .col-lg-4 .team-member .team-sm-icons i {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    line-height: 50px;
+}
+
+#team .container .row .col-lg-4 .team-member .team-sm-icons i:hover {
+    background-color: #48dbfb;
+    transition: all 0.5s;
+
+}
+
+/*CONTACT*/
+
+#contact {
+    color: #fff;
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contact .container form .form-row {
+    margin-top: 30px;
+}
+
+#contact .container form .form-row .col-lg-6 textarea {
+    height: 200px;
+}
+
+
+
+#contact .container form .form-row .col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contact .container form .form-row .col-lg-6 .input-custom {
+    height: 50px;
+}
+
+#contact .container form .form-row .col-lg-12 button .btn-custom:hover {
+    background-color: #48dbfb;
+    transition-duration: 0.6s;
+}
+
+/*FOOTER*/
+
+#main-footer {
+    height: 80px;
+    color: black;
+}
+
+#main-footer .container .row .col-lg-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 80px;
+}
+
+#main-footer .container .row .team-sm-icons{
+    text-align: center;
+}
+
+#main-footer .container .row .sm-footer{
+    justify-content: center;
+}
+
+#main-footer .container .row .team-sm-icons a i {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+}
+
+#main-footer .container .row .team-sm-icons a i:hover {
+    background-color: #48dbfb;
+    transition: all 0.5s;
+}
+
+/*NAV FOOTER*/
+
+
+#main-footer .container .row .col-lg-4.nav-footer{
+    justify-content: flex-end;
+}
+
+#main-footer .container .row .col-lg-4.nav-footer ul li a:hover{
+    color:#48dbfb;
+    text-decoration: none;
+}
